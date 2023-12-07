@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  background-color: #383632;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr;
+  grid-template-rows: 1fr 0.3fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 50px;
+  height: 35vh;
+}
+
+.div1 {
+  text-align: center;
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.div2 {
+  text-align: center;
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div3 {
+  grid-area: 2 / 2 / 3 / 3;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: #767471;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #767471;
+}
+
+#first_user {
+  font-size: large;
+}
+
+#second_user {
+  font-size: large;
+}
+
+li {
+  margin: 1rem;
+  color: hsla(135, 100%, 49%, 0.6);
+  font-size: 2rem;
+}
+
+.btn {
+  transition: all 300ms cubic-bezier(0.39, 0.575, 0.565, 1);
+  border: 2px solid #111;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  border: 2px solid #111;
+  background-color: hsla(135, 100%, 49%, 0.6);
+}
